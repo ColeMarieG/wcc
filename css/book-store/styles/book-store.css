@@ -1,0 +1,25 @@
+body {
+    background-color:floralwhite;
+}
+
+/* This will change each month */
+#monthlyBestSeller {
+
+    border-left-color: navy;
+    border-left-style: solid;
+    border-width: 15px;
+}
+
+/* This is the base style for all of the books */
+section {
+    border-radius: 5px;
+    background-color: lightcyan;
+    border: double 10px blue;
+    margin: 15px;
+    padding: 7px;
+}
+
+/* This is the added style for any books that are on sale */
+.onSale {
+    background-color: thistle;
+}
