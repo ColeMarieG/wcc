@@ -1,0 +1,43 @@
+#wrapper {
+    width:600px;
+    margin:auto; /* Centers the div on the page */
+    border:2px solid tan;
+    padding:25px;
+}
+
+body {
+    background-image: url('https://practice-pixels.s3.amazonaws.com/texture-paper.jpg');
+    /*font-size: 62.5%; /* Will make the default browser size 10px */
+}
+
+h1 {
+    color:#1d8240;
+    font-family: verdana, sans-serif;
+    font-size: 2.2rem;
+    font-variant: small-caps;
+}
+
+h2 {
+    color: #2ba55d;
+    font-family: verdana, sans-serif;
+}
+
+p, ul {
+    line-height: 1.5;
+    font-family: Georgia, serif;;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.primary {
+    font-weight: bold;
+    list-style-type: disc;
+}
+
+#author-image {
+    border: 2px solid #1d8240;
+    border-radius: 10px;
+    float: right;
+}
