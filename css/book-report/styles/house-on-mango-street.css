@@ -39,5 +39,6 @@ ul {
 #author-image {
     border: 2px solid #1d8240;
     border-radius: 10px;
-    float: right;
+    float: left;
+    margin-right: 15px;
 }
