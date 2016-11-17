@@ -1,0 +1,109 @@
+<!-- /*<style>
+    img + h1 {
+        background-color:yellow;
+    }
+
+    /* This will not do anything, because the h2 is not directly next to the img */
+    img + h2 {
+        background-color:orange;
+    }
+</style>
+
+<section>
+    <header>
+        <img src='https://practice-pixels.s3.amazonaws.com/book-logo.png' alt='Reading List Logo'>
+        <h1>Reading List</h1>
+        <h2>Curated by Sabrina</h2>
+    </header>
+</section>*/ -->
+
+<!-- /*<style>
+    /* This accomplishes what the img + h2 could not */
+    img ~ h2 {
+        background-color:yellow;
+    }
+</style>
+
+<section>
+    <header>
+        <img src='https://practice-pixels.s3.amazonaws.com/book-logo.png' alt='Reading List Logo'>
+        <h1>Reading List</h1>
+        <h2>Curated by Sabrina</h2>
+    </header>
+</section>*/ -->
+
+<!-- /*<style>
+    /* Both the h1 and the h2 are child elements of the header,
+    so the following two selectors will work. */
+    header > h1 {
+        background-color:yellow;
+    }
+
+    header > h2 {
+        background-color:orange;
+    }
+
+    /* While the img is a descendant of the section,
+    it is not a direct child...it’s more of a “grandchild.”
+    Therefore, the following selector will do nothing. */
+    section > img {
+        border:1px solid black;
+    }
+</style>
+
+<section>
+    <header>
+        <img src='https://practice-pixels.s3.amazonaws.com/book-logo.png' alt='Reading List Logo'>
+        <h1>Reading List</h1>
+        <h2>Curated by Sabrina</h2>
+    </header>
+</section>*/ -->
+
+<!-- /*<style>
+    /* The h1 isn’t a direct child of the section element
+    but it is a descendant, so this will work. */
+    section h1 {
+        background-color:yellow;
+    }
+
+    /* The descendant selector also works on child elements */
+    header h1 {
+        border:1px solid red;
+    }
+</style>
+
+<section>
+    <header>
+        <img src='https://practice-pixels.s3.amazonaws.com/book-logo.png' alt='Reading List Logo'>
+        <h1>Reading List</h1>
+    </header>
+</section>*/ -->
+
+
+<!-- /*<style>
+    /* Child: Select the img, in the header, in the section */
+    section > header > img {
+        background-color:yellow;
+    }
+</style>
+
+<section>
+    <header>
+        <img src='https://practice-pixels.s3.amazonaws.com/book-logo.png' alt='Reading List Logo'>
+        <h1>Reading List</h1>
+    </header>
+</section>*/ -->
+
+<style>
+    /* Descendant: select h1 descendants of the element with the class "content"  */
+    .content h1 {
+        background-color:yellow;
+    }
+</style>
+
+<section class='content'>
+    <header>
+        <img src='https://practice-pixels.s3.amazonaws.com/book-logo.png' alt='Reading List Logo'>
+        <h1>Reading List</h1>
+    </header>
+</section>
