@@ -1,0 +1,15 @@
+/****** General Styles *********/
+
+body {...}
+h1, h2, h3 {..}
+p {...}
+a {...}
+
+/****** Header Style *********/
+#header {...}
+
+/****** Main Content Style *********/
+#nav {...}
+
+/****** Footer Style *********/
+#footer {...}
