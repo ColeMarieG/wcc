@@ -1,4 +1,5 @@
-/****** General Styles *********/
+/* ==[ General Style ]== */
+
 body {
     background-color: #185a96;
     background-image: url(../images/texture-blue.jpg);
@@ -6,16 +7,18 @@ body {
 
 #wrapper {
     background-color: #ffffff;
-    border-radius:4px;
-    width:60%;
-    margin: 3.5em auto;
-    padding: 1em 2em;
+    border-radius:5px;
+    width:59%;
+    margin: 3.75em auto;
+    padding: 1em 2em .35em 2em;
 }
 
-/****** Header Style *********/
+/* ==[ Header Style ]== */
+
 header {
     width: 100%;
 }
+
 img {
     display: block;
     max-width: 75px;
@@ -26,7 +29,7 @@ img {
 h1,h2 {
     font-family: helvetica, sans-serif;
     text-align: center;
-    line-height: .35em;
+    margin: .1em 0em 0em 0em;
 }
 
 h1 {
@@ -37,40 +40,55 @@ h1 {
 h2 {
     font-size: 1.2em;
     font-weight: bold;
+    margin-bottom: 1.2em;
 }
- em {
+
+em {
     text-decoration: underline;
     font-style: normal;
- }
-/****** Main Content Style *********/
+}
+
+/* ==[ Main Content Style ]== */
+
+/*Box around the book title and summary*/
 .book-info {
     background-color: #eeeeee;
-    margin: 2em .75em;
-    padding: .5em;
-    }
+    margin: 1.25em 0;
+    padding: .5em .7em;
+}
 
 h3, h4, a {
     font-family: Helvetica, sans-serif;
     margin: 0;
 }
 
-p {
-    font-family: Georgia, serif;
-}
-
 h3 {
     font-size: 1.25em;
-
 }
 
 h4 {
     font-style: italic;
-    line-height:;
 }
-/****** Footer Style *********/
-footer > p {
+
+p {
+    font-family: Georgia, serif;
+    line-height: 1.5;
+}
+
+/*Purchase Link Formatting*/
+a:link {color: #d42a1d;}
+a:visited {color: #d42a1d;}
+a:hover {color: #185a96;}
+a:active {color: #d42a1d;}
+
+/* ==[ Footer Style ]== */
+
+footer {
+    margin: 0;
+}
+
+.copyright {
     text-align: center;
     font-family: Helvetica, sans-serif;
     margin: 0;
-
 }
